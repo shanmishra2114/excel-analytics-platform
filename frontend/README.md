@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
+# Excel Analytics Platform
 
-## Project info
+A modern web application to upload Excel/CSV files, analyze the data, and generate beautiful 2D & 3D charts with ease. Built with React, TypeScript, and Node.js for full-stack functionality.
 
-**URL**: https://lovable.dev/projects/3fa6c4aa-e9ca-4c72-90c3-5c70d3ea1339
+---
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **File Upload**: Upload Excel or CSV files directly from your system.
+- **Data Parsing**: Automatic extraction of columns and data previews.
+- **Data Visualization**: Generate 2D & 3D charts from your uploaded data.
+- **Recent Files & Charts**: Keep track of uploaded files and generated charts.
+- **User Authentication**: Secure login and registration system.
+- **Admin Dashboard**: Manage users, files, and charts from a dedicated admin panel.
+- **Cloud Storage**: Files are stored securely using Cloudinary.
+- **Responsive UI**: Built with React and Tailwind CSS for a clean, responsive interface.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3fa6c4aa-e9ca-4c72-90c3-5c70d3ea1339) and start prompting.
+## Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend**: React, TypeScript, Vite, Tailwind CSS, shadcn-ui
+- **Backend**: Node.js, Express, MongoDB, JWT authentication
+- **File Storage**: Cloudinary for storing uploaded files
+- **Charts**: Dynamic chart rendering from uploaded data
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+- Node.js (v18+ recommended)
+- npm or yarn
+- MongoDB (Atlas or local)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+# Clone the repository
+git clone https://github.com/shanmishra2114/excel-analytics-platform.git
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Navigate to project folder
+cd excel-analytics-platform
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+# Install frontend dependencies
+cd frontend
+npm install
+
+# Install backend dependencies
+cd ../server
+npm install
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/3fa6c4aa-e9ca-4c72-90c3-5c70d3ea1339) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
