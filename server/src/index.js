@@ -17,7 +17,21 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(cors());
+const allowedOrigins = [
+  "http://localhost:8080",               
+  "https://excel-analytics-ui.onrender.com" 
+];
+
+app.use(
+  cors({
+    origin: allowedOrigins,
+    credentials: true,
+  })
+);
+
+
+
+
 app.use(express.json());
 
 // Routes
