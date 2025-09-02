@@ -54,11 +54,7 @@ npm run dev
 
 📦 Deployment
 
-Frontend: Hosted on Render / Vercel
+Frontend: Hosted on Render
 Backend: Hosted on Render
 Database: MongoDB Atlas
 
-
-📜 License
-This project is licensed under the MIT License.
-© 2025 Shantanu Mishra. All rights reserved.
