@@ -31,8 +31,8 @@ excel-analytics-platform/
 ⚡ Installation & Setup
 Follow these steps to set up the project locally:
 # 1. Clone the repository
-git clone https://github.com/iamdanwi/zidio_internship.git
-cd zidio_internship
+git clone https://github.com/shanmishra2114/excel-analytics-platform.git
+cd excel-analytics-platform
 
 # 2. Install dependencies
 
@@ -54,11 +54,7 @@ npm run dev
 
 📦 Deployment
 
-Frontend: Hosted on Render / Vercel
+Frontend: Hosted on Render
 Backend: Hosted on Render
 Database: MongoDB Atlas
 
-
-📜 License
-This project is licensed under the MIT License.
-© 2025 Shantanu Mishra. All rights reserved.
